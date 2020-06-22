@@ -1,6 +1,6 @@
 # Overfetching Queries
 
-Chances are that in the last lesson you overfetched from the pokemon database. If not, good for you! Nevertheless, its good to recognize that GraphQL queries should only request what is needed and nothing more. When more than is needed is queried, it is called overfetching, and it is taxing on your database and response time.
+Chances are in the last lesson you overfetched from the pokemon database. If not, good for you! Nevertheless, it is good to recognize that GraphQL queries should only request what is needed and nothing more. When more than is needed is queried, it is called overfetching, and it is taxing on your database and response time.
 
 For this lesson, we need to build GraphQL queries that **only** request what is asked for and nothing more.
 
@@ -15,7 +15,9 @@ Use [Pokemon-GraphQL](https://graphql-pokemon.now.sh/) to form queries that only
 
 ## Geography
 
-Besides Pokemon, we also want to drill into some info geography. And GraphiQL is not the only GraphQL Interactive Development Environment (IDE) out there. Use [this countries](https://countries.trevorblades.com/) GraphQL IDE to form queries that only return the requested data. Be sure to explore "docs" tab on the right of the page.
+We also want to drill into some infomation on the world's countries and languages and GraphiQL is not the only GraphQL Interactive Development Environment (IDE) out there.
+
+[Countries](https://countries.trevorblades.com/) uses a GraphQL IDE with a slightly different interface. Use this site to form queries that only return the requested data. Be sure to explore the "docs" tab on the right of the page.
 
 1. All the continent names.
 1. All countries names and their capitols.
